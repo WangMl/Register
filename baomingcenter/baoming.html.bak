@@ -1,0 +1,1220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>报名中心</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"></script>
+<script src="js/baoming.js"></script>
+<link href="css/baoming.css" type="text/css" rel="stylesheet"/>
+<link href="css/bmcontainer2.css" type="text/css" rel="stylesheet"/>
+<link href="css/bmcontainer3.css" type="text/css" rel="stylesheet"/>
+<style type="text/css">
+
+
+</style>
+</head>
+
+<body>
+
+<div id="logo"><img src="img/baomingzhongxin.png" /></div>
+<div id="header">  
+
+<div id="navigation">
+
+<div id="register2" onClick="showTu1('img/jiantou.png','img/jiantoukong.png')"><img src="img/zuixinbaoming2.png" /></div>
+<div id="register1"><img src="img/zuixinbaoming.png" /></div>
+<div id="manager2" onClick="showTu2('img/jiantou.png','img/jiantoukong.png')"><img src="img/baomingguanli2.png"  /></div>
+<div id="manager1" ><img src="img/baomingguanli.png"/ ></div>
+<div id="information2"  onClick="showTu3('img/jiantou.png','img/jiantoukong.png')"><img src="img/gerenxinxi2.png"  /></div>
+<div id="information1" ><img src="img/gerenxinxi.png" /></div>
+</div>
+</div>
+<!--container1主框架部分-->
+<div id="container1">
+<div id="sidebar">
+<div id="blackground">
+<div id="heater" onClick="brancha1()"><img src="img/dangqianhuodong.png" id="heater1"  onClick="showJian1('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantou.png"  id="jiantou1" /></div> 
+<div id="baixian1"><img src="img/baixian.png" /></div>
+<div id="community" onClick="brancha2()"><img src="img/shetuanzhaoxin.png" id="community1"  onClick="showJian2('img/jiantou.png','img/jiantoukong.png')" /><img src="img/jiantoukong.png" id="jiantou2" /></div> 
+<div id="baixian2"><img src="img/baixian.png" /></div>
+<div id="process" onClick="brancha3()"><img src="img/yijuebanhuodong.png" id="process1" onClick="showJian3('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantoukong.png" id="jiantou3" /></div> 
+<div id="baixian3"><img src="img/baixian.png" /></div>
+</div>
+<div id="menubar" width="191px" >
+  <div id="menuiterm1"><a href=""><img src="img/connectus.png"  id="iterm1"onmouseover="change1()" onmouseout="start1()"/></a></div>
+ <div id="menuiterm2"><a href=""><img src="img/technology.png"  id="iterm2"onmouseover="change2()" onmouseout="start2()"/></a></div>
+ <div id="menuiterm3"><a href=""><img src="img/suggestion.png"   id="iterm3"onmouseover="change3()" onmouseout="start3()"/></a></div>
+</div>
+</div>
+
+
+
+<!--content1部分-->		 
+<div id="content1" >
+      <div id="daohanga"><img src="img/daohang.png" /></div>
+  
+
+      <div id="xinxia1">
+ 
+         <div id="showa1" onClick="show('a','1')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td rowspan="3">
+                    <div id="zonga1">
+                      <div id="baominga1"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                      <div  id="zhankaia1" onClick="show('a','1')">展开详情</div>
+                    </div>
+
+                </td>
+              </tr>
+              <tr>
+                 <td rowspan="2">
+                     <div id="texta1" onClick="hide('a','1')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+              </tr>
+            </table>
+         </div>
+            <table>
+               <tr>
+                  <td>
+                     <div id="hidea1" onClick="hide('a','1')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptya1" onClick="hide('a','1')"></div>
+                  </td>
+               </tr>
+            </table>
+ 
+      <div id="guanbia1" onClick="hide('a','1')"><p>&nbsp;&nbsp;关闭详情</p></div>
+      <div id="gengduoa1" onClick="hide('a','1')">
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </div>
+   </div>
+ 
+  
+  <div id="xinxia2">
+ 
+          <div id="showa2" onClick="show('a','2')">
+            <br />
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+                  <tr>
+                     <td>
+                        <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                     </td>
+                     <td rowspan="3">
+                        <div id="zonga2">
+                            <div id="baominga2"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                            <div  id="zhankaia2">展开详情</div>
+                        </div>
+
+                     </td>
+                  </tr>
+                  <tr>
+                      <td rowspan="2">
+                         <div id="texta2">
+                             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                         </div>
+                      </td>
+                  </tr>
+               </table>
+            </div>
+                 <table>
+                    <tr>
+                       <td>
+                  	       <div id="hidea2" onClick="hide('a','2')">
+                                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                                 多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                           </div> 
+                       </td>
+ 
+                       <td>
+                            <div id="emptya2"  onClick="hide('a','2')"></div>
+                       </td>
+                    </tr>
+                 </table>
+ 
+             <div id="guanbia2"  onClick="hide('a','2')"><p>&nbsp;&nbsp;关闭详情</p></div>
+             <div id="gengduoa2">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+             </div>
+          </div>  
+ <div id="xinxia3">
+ 
+             <div id="showa3" onClick="show('a','3')">
+                 <br />
+                 <table width="100%"  cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+                     <tr>
+                          <td>
+                             <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font> </h4>
+                          </td>
+                          <td rowspan="3">
+                            <div id="zonga3">
+                                 <div id="baominga3"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                                 <div  id="zhankaia3"> 展开详情 </div>
+                            </div>
+
+                          </td>
+                     </tr>
+                     <tr>
+                          <td rowspan="2">
+                            <div id="texta3">
+                            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                            </div>
+                          </td>
+                     </tr>
+                 </table>
+             </div>
+                 <table>
+                        <tr>
+                           <td>
+                              <div id="hidea3" onClick="hide('a','3')">
+                                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后</p>
+  
+                              </div> 
+                           </td>
+ 
+                           <td>
+                              <div id="emptya3" onClick="hide('a','3')"></div>
+                           </td>
+                        </tr>
+                 </table>
+ 
+                      <div id="guanbia3" onClick="hide('a','3')"><p>&nbsp;&nbsp;关闭详情</p></div>
+                      <div id="gengduoa3" onClick="hide('a','3')">  
+                           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                      </div>
+  
+  </div>
+ 
+ 
+ <div id="xinxia4">
+ 
+               <div id="showa4" onClick="show('a','4')">
+                    <br />
+                    <table width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+                     <tr>
+                       <td>
+                         <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                       </td>
+                       <td rowspan="3">
+                          <div id="zonga4">
+                             <div id="baominga4"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                             <div  id="zhankaia4">展开详情</div>
+                          </div>
+
+                       </td>
+                     </tr>
+                     <tr>
+                       <td rowspan="2">
+                           <div id="texta4">
+                                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦。</p>
+                           </div>
+                       </td>
+                     </tr>
+                    </table>
+                     </div>
+                    <table>
+                         <tr>
+                           <td>
+                              <div id="hidea4" onClick="hide('a','4')">
+                                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后力。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                                  多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+         
+    
+                              </div>
+  
+                           </td>
+ 
+                           <td>
+                              <div id="emptya4" onClick="hide('a','4')"></div>
+                           </td>
+                         </tr>
+                    </table>
+  
+                     <div id="guanbia4" onClick="hide('a','4')"><p>&nbsp;&nbsp;关闭详情</p></div>
+                     <div id="gengduoa4" onClick="hide('a','4')">
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                     </div>
+ </div>
+ 
+ 
+ <div id="xinxia5">
+ 
+         <div id="showa5" onClick="show('a','5')">
+            <br />
+          <table width="100%"cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+            <tr>
+              <td>
+                <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+              </td>
+              <td rowspan="3">
+                  <div id="zonga5">
+                     <div id="baominga5"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                     <div  id="zhankaia5">展开详情</div>
+                  </div>
+
+              </td>
+            </tr>
+            <tr>
+              <td rowspan="2">
+                 <div id="texta5">
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风。</p>
+                 </div>
+              </td>
+            </tr>
+          </table>
+           </div>
+          <table>
+              <tr>
+                <td>
+                   <div id="hidea5" onClick="hide('a','5')">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                    多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+   
+                   </div> 
+                </td>
+ 
+                <td>
+                   <div id="emptya5" onClick="hide('a','5')"></div>
+                </td>
+              </tr>
+          </table>
+ 
+           <div id="guanbia5" onClick="hide('a','5')"><p>&nbsp;&nbsp;关闭详情</p></div> 
+             <div id="gengduoa5" onClick="hide('a','5')"> 
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+           </div>
+ 
+          <div class="pagination" id="pagea">
+            <ul>
+             <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+             <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+             <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+             <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+             <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+             <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+             <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+            </ul>
+          </div>
+  
+  </div>  
+  
+<!--content2部分-->		 
+<div id="content2">
+         <div id="daohangb"><img src="img/shetuandaohang.png" /></div>
+  
+         <div id="xinxib1">
+ 
+            <div id="showb1" onClick="show('b','1')">
+             <br />
+             <table width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                 <td >
+                  <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                 </td>
+                 <td rowspan="3">
+                    <div id="zongb1">
+                       <div id="baomingb1"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                       <div  id="zhankaib1">展开详情</div>
+                    </div>
+
+                 </td>
+               </tr>
+               <tr>
+                 <td rowspan="2">
+                    <div id="textb1">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                    </div>
+                 </td>
+               </tr>
+             </table>
+              </div>
+             <table>
+               <tr>
+                 <td>
+                   <div id="hideb1" onClick="hide('b','1')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。</p>
+                   </div>
+                 </td>
+ 
+                 <td>
+                    <div id="emptyb1"onClick="hide('b','1')"></div>
+                 </td>
+                 </tr>
+             </table>
+
+
+                <div id="guanbib1" onClick="hide('b','1')"><p>&nbsp;&nbsp;关闭详情</p></div>
+
+                <div id="gengduob1" onClick="hide('b','1')">
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+            </div>
+          
+  
+        <div id="xinxib2">
+ 
+        <div id="showb2" onClick="show('b','2')">
+          <br />
+          <font size="2">
+           <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             <tr>
+               <td>
+                 <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+               </td>
+               <td rowspan="3">
+                  <div id="zongb2">
+                  <div id="baomingb2"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                  <div  id="zhankaib2">展开详情</div>
+                  </div>
+
+               </td>
+             </tr>
+             <tr>
+                 <td rowspan="2" onClick="hide('b','2')">
+                   <div id="textb2">
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                   </div>
+                 </td>
+             </tr>
+           </table>
+           </div>
+         <table>
+              <tr>
+                <td>
+                  <div id="hideb2" onClick="hide('b','2')">
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学的</p>     
+                  </div> 
+                </td>
+ 
+                <td>
+                   <div id="emptyb2" onClick="hide('b','2')"></div>
+                </td>
+              </tr>
+         </table>
+ 
+           <div id="guanbib2" onClick="hide('b','2')"><p>&nbsp;&nbsp;关闭详情</p></div>
+           <div id="gengduob2" onClick="hide('b','2')">
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+           </div>
+       </div>
+ 
+ 
+  <div id="xinxib3">
+ 
+         <div id="showb3" onClick="show('b','3')">
+            <br />
+            <font size="2">
+            <table width="100%"  cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                 <td>
+                     <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                 </td>
+                 <td rowspan="3">
+                     <div id="zongb3">
+                         <div id="baomingb3"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                         <div  id="zhankaib3">展开详情</div>
+                     </div>
+
+                 </td>
+              </tr>
+              <tr>
+                 <td rowspan="2">
+                   <div id="textb3">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                   </div>
+                 </td>
+              </tr>
+            </table>
+             </div>
+            <table>
+               <tr>
+                   <td>
+                     <div id="hideb3" onClick="hide('b','3')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。的</p>  
+                     </div> 
+                   </td>
+ 
+                   <td>
+                     <div id="emptyb3" onClick="show('b','3')"></div>
+                   </td>
+               </tr>
+            </table>
+ 
+                <div id="guanbib3"onClick="show('b','3')"><p>&nbsp;&nbsp;关闭详情</p></div>
+                      <div id="gengduob3" onClick="show('b','3')">  
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+  
+         </div>
+
+ 
+ <div id="xinxib4">
+ 
+      <div id="showb4" onClick="show('b','4')">
+           <br />
+           <font size="2">
+            <table width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td>
+                 <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                </td>
+                <td rowspan="3">
+                     <div id="zongb4">
+                        <div id="baomingb4"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                        <div  id="zhankaib4">展开详情</div>
+                     </div>
+ 
+                </td>
+              </tr>
+              <tr>
+                 <td rowspan="2">
+                   <div id="textb4">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦。</p>
+                   </div>
+                 </td>
+              </tr>
+           </table>
+            </div>
+           <table>
+              <tr>
+                <td>
+                   <div id="hideb4" onClick="hide('b','4')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春活力。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                      多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+         
+    
+                   </div>
+  
+                </td>
+ 
+                <td>
+                  <div id="emptyb4" onClick="hide('b','4')"></div>
+                </td>
+              </tr>
+           </table>
+  
+               <div id="guanbib4" onClick="hide('b','4')"><p>&nbsp;&nbsp;关闭详情</p></div>
+                <div id="gengduob4" onClick="hide('b','4')">
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+                </div>
+ 
+ 
+   <div id="xinxib5">
+ 
+        <div id="showb5" onClick="show('b','5')">
+           <br />
+           <font size="2">
+                <table width="100%"cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+                   <tr>
+                       <td>
+                        <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                       </td>
+                       <td rowspan="3">
+                          <div id="zongb5">
+                          <div id="baomingb5"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                          <div  id="zhankaib5">展开详情</div>
+                          </div>
+
+                       </td>
+                   </tr>
+                   <tr>
+                       <td rowspan="2">
+                         <div id="textb5">
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风。</p>
+                         </div>
+                       </td>
+                   </tr>
+               </table>
+                  </div>
+             <table>
+                <tr>
+                   <td>
+                     <div id="hideb5" onClick="hide('b','5')">
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的</p>
+   
+                     </div> 
+                   </td>
+ 
+                   <td>
+                        <div id="emptyb5" onClick="hide('b','5')"></div>
+                   </td>
+                </tr>
+             </table>
+ 
+                 <div id="guanbib5" onClick="hide('b','5')"><p>&nbsp;&nbsp;关闭详情</p></div> 
+                 <div id="gengduob5" onClick="hide('b','5')"> 
+                       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+                 </div>
+ 
+               <div class="pagination" id="pageb">
+                 <ul>
+                     <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+   
+                     <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+                 </ul>
+               </div>
+  
+  </div>  
+  
+
+</div>
+
+
+<!--content3部分-->		 
+<div id="content3">
+         <div id="daohangc"><img src="img/guoqidaohang.png" /></div>
+  
+         <div id="xinxic1">
+ 
+            <div id="showc1" onClick="show('c','1')">
+             <br />
+             <table width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                 <td >
+                  <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                 </td>
+                 <td rowspan="3">
+                    <div id="zongc1">
+                       <div id="baomingc1"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                       <div  id="zhankaic1">展开详情</div>
+                    </div>
+
+                 </td>
+               </tr>
+               <tr>
+                 <td rowspan="2">
+                    <div id="textc1" onClick="hide('c','1')">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                    </div>
+                 </td>
+               </tr>
+             </table>
+              </div>
+             <table>
+               <tr>
+                 <td>
+                   <div id="hidec1" onClick="hide('c','1')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。</p>
+                   </div>
+                 </td>
+ 
+                 <td>
+                    <div id="emptyc1" onClick="hide('c','1')"></div>
+                 </td>
+                 </tr>
+             </table>
+
+
+                <div id="guanbic1" onClick="hide('c','1')"><p>&nbsp;&nbsp;关闭详情</p></div>
+
+                <div id="gengduoc1" onClick="hide('c','1')">
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                </div>
+            </div>
+          
+  
+    <div id="xinxib2">
+ 
+        <div id="showc2" onClick="show('c','2')">
+          <br />
+           <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             <tr>
+               <td>
+                 <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+               </td>
+               <td rowspan="3">
+                  <div id="zongc2">
+                  <div id="baomingc2"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                  <div  id="zhankaic2">展开详情</div>
+                  </div>
+
+               </td>
+             </tr>
+             <tr>
+                 <td rowspan="2">
+                   <div id="textc2">
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                   </div>
+                 </td>
+             </tr>
+           </table>
+           </div>
+         <table>
+              <tr>
+                <td>
+                  <div id="hidec2" onClick="hide('c','2')">
+                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学的</p>     
+                  </div> 
+                </td>
+ 
+                <td>
+                   <div id="emptyc2" onClick="hide('c','2')"></div>
+                </td>
+              </tr>
+         </table>
+ 
+           <div id="guanbic2" onClick="hide('c','2')"><p>&nbsp;&nbsp;关闭详情</p></div>
+           <div id="gengduoc2" onClick="hide('c','2')">
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+           </div>
+       </div>
+ 
+ 
+  <div id="xinxic3">
+ 
+         <div id="showc3" onClick="show('c','3')">
+            <br />
+            <table width="100%"  cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                 <td>
+                     <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                 </td>
+                 <td rowspan="3">
+                     <div id="zongc3">
+                         <div id="baomingc3"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                         <div  id="zhankaic3">展开详情</div>
+                     </div>
+
+                 </td>
+              </tr>
+              <tr>
+                 <td rowspan="2">
+                   <div id="textc3">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                   </div>
+                 </td>
+              </tr>
+            </table>
+             </div>
+            <table>
+               <tr>
+                   <td>
+                     <div id="hidec3" onClick="hide('c','3')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。的</p>  
+                     </div> 
+                   </td>
+ 
+                   <td>
+                     <div id="emptyc3" onClick="hide('c','3')"></div>
+                   </td>
+               </tr>
+            </table>
+            <div id="guanbic3" onClick="hide('c','3')"><p>&nbsp;&nbsp;关闭详情</p></div>
+                      <div id="gengduoc3" onClick="hide('c','3')" >  
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+  
+         </div>
+
+ 
+ <div id="xinxic4">
+ 
+      <div id="showc4" onClick="show('c','4')">
+           <br />
+            <table width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td>
+                 <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                </td>
+                <td rowspan="3">
+                     <div id="zongc4">
+                        <div id="baomingc4"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                        <div  id="zhankaic4">展开详情</div>
+                     </div>
+ 
+                </td>
+              </tr>
+              <tr>
+                 <td rowspan="2">
+                   <div id="textc4">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦。</p>
+                   </div>
+                 </td>
+              </tr>
+           </table>
+            </div>
+           <table>
+              <tr>
+                <td>
+                   <div id="hidec4" onClick="hide('c','4')">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春活力。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                      多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+         
+    
+                   </div>
+  
+                </td>
+ 
+                <td>
+                  <div id="emptyc4" onClick="hide('c','4')"></div>
+                </td>
+              </tr>
+           </table>
+  
+               <div id="guanbic4" onClick="hide('c','4')"><p>&nbsp;&nbsp;关闭详情</p></div>
+                <div id="gengduoc4" onClick="hide('c','4')">
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+                </div>
+ 
+ 
+   <div id="xinxic5">
+ 
+        <div id="showc5" onClick="show('c','5')">
+           <br />
+                <table width="100%"cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+                   <tr>
+                       <td>
+                        <h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4>
+                       </td>
+                       <td rowspan="3">
+                          <div id="zongc5">
+                          <div id="baomingc5"><a href=""><img src="img/woyaobaoming.png" /></a></div>
+                          <div  id="zhankaic5">展开详情</div>
+                          </div>
+
+                       </td>
+                   </tr>
+                   <tr>
+                       <td rowspan="2">
+                         <div id="textc5">
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风。</p>
+                         </div>
+                       </td>
+                   </tr>
+               </table>
+                  </div>
+             <table>
+                <tr>
+                   <td>
+                     <div id="hidec5" onClick="hide('c','5')">
+                          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的</p>
+   
+                     </div> 
+                   </td>
+ 
+                   <td>
+                        <div id="emptyc5" onClick="hide('c','5')"></div>
+                   </td>
+                </tr>
+             </table>
+ 
+                 <div id="guanbic5" onClick="hide('c','5')"><p>&nbsp;&nbsp;关闭详情</p></div> 
+                 <div id="gengduoc5" onClick="hide('c','5')"> 
+                       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+                 </div>
+ 
+               <div class="pagination" id="pageb">
+                 <ul>
+                     <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+   
+                     <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                     <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+                 </ul>
+               </div>
+  
+  </div>  
+  
+
+</div>
+        </div>
+</div>
+</div>
+<!--container2主框架部分-->
+<div id="container2">
+<div id="sidebarb">
+     <div id="blackgroundb">
+         <div id="activitystate" onClick="branchb1()"><img src="img/huodongbaomingzhuangtai.png" id="activitystate1"  onClick="showJianb1('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantou.png"  id="jiantoub1" /></div> 
+         <div id="baixianb1"><img src="img/baixian.png" /></div>
+         <div id="zhaoxinstate" onClick="branchb2()"><img src="img/zhaoxinbaomingzhuantai.png" id="zhaoxinstate1"  onClick="showJianb2('img/jiantou.png','img/jiantoukong.png')" /><img src="img/jiantoukong.png" id="jiantoub2" /></div> 
+         <div id="baixianb2"><img src="img/baixian.png" /></div>
+     </div>
+    <div id="menubarb" width="191px">
+         <div id="menuitermb1"><a href=""><img src="img/connectus.png"  id="itermb1"onmouseover="changeb1()" onmouseout="startb1()"/></a></div>
+         <div id="menuitermb2"><a href=""><img src="img/technology.png"  id="itermb2"onmouseover="changeb2()" onmouseout="startb2()"/></a></div>
+         <div id="menuitermb3"><a href=""><img src="img/suggestion.png"   id="itermb3"onmouseover="changeb3()" onmouseout="startb3()"/></a></div>
+    </div>
+</div>
+<div id="contentb1">
+<div id="activitydaohang"><img src="img/activitydaohang.png" /></div>
+<div id="biaogeb1">
+  <font size="2" color="#000000">
+   <table width="100%">
+   <div id="biaogebiaoti"><img src="img/biaogebiaoti.png" width="200px"/></div>
+     <tr>
+       <td height="100px">2013年5月1日</td>
+       <td height="100px">IT艺术节</td>
+       <td height="100px">审核中/通过/淘汰</td>
+       <td height="100px">详细信息</td>
+     </tr>
+
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+      </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+ 
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+     </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+   
+
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+     </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+    
+
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+     </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+     
+   </table>
+ </font>
+</div>
+  <div class="pagination" id="pageba">
+  <ul>
+    <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+    <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+   </ul>
+   </div>
+</div>
+
+
+<div id="contentb2">
+<div id="zhaoxindaohang"><img src="img/zhaoxinstate.png" /></div>
+<div id="biaogeb1">
+  <font size="2" color="#000000">
+   <table width="100%">
+   <div id="biaogebiaotib"><img src="img/zhaoxinbiaoti2.png" width="200px"/></div>
+     <tr>
+       <td height="100px">2013年5月1日</td>
+       <td height="100px">IT艺术节</td>
+       <td height="100px">审核中/通过/淘汰</td>
+       <td height="100px">详细信息</td>
+     </tr>
+
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+      </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+ 
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+     </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+   
+
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+     </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+    
+
+      <tr>
+       <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+     </tr>
+      <tr>
+     
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+       <td height="100px"></td>
+      </tr>
+     
+   </table>
+ </font>
+</div>
+  <div class="pagination" id="pagebb">
+  <ul>
+    <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+    <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+    <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+   </ul>
+   </div>
+</div>
+
+</div>
+
+
+
+<!--container3主框架部分-->
+<div id="container3">
+<div id="sidebarc">
+     <div id="blackgroundc">
+         <div id="jibenxinxi" onClick="branchc1()"><img src="img/jibenxinxi.png" id="jibenxinxi1"  onClick=          "showJianc1('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantou.png"  id="jiantouc1" /></div> 
+         <div id="baixianc1"><img src="img/baixian.png" /></div>
+         <div id="wangqicanyu" onClick="branchc2()"><img src="img/wangqicanyuhuoqong.png" id="wangqicanyu1"  onClick= "showJianc2('img/jiantou.png','img/jiantoukong.png')" /><img src="img/jiantoukong.png" id="jiantouc2" /></div> 
+         <div id="baixianc2"><img src="img/baixian.png" /></div>
+         <div id="wangqihuodong" onClick="branchc3()"><img src="img/wangqihuodong.png" id="wangqihuodong1"  onClick=          "showJianc3('img/jiantou.png','img/jiantoukong.png')" /><img src="img/jiantoukong.png" id="jiantouc3" /></div> 
+         <div id="baixianc2"><img src="img/baixian.png" /></div>
+     </div>
+     <div id="menubarc" width="191px">
+       <div id="menuitermc1"><a href=""><img src="img/connectus.png"  id="itermc1"onmouseover="changec1()" onmouseout="startc1()"/></a></div>
+       <div id="menuitermc2"><a href=""><img src="img/technology.png"  id="itermc2"onmouseover="changec2()" onmouseout="startc2()"/></a></div>
+       <div id="menuitermc3"><a href=""><img src="img/suggestion.png"   id="itermc3"onmouseover="changec3()" onmouseout="startc3()"/></a></div>
+     </div>
+</div>
+<div id="contentc1">
+     <div id="jibenxinxidaohang"><img src="img/jibenxinxidaohang.png" /></div> 
+</div>
+
+<div id="contentc2">
+       <div id="wangqicanyudaohang"><img src="img/wangqicanyudaohang.png" /></div>
+       <div id="biaogeb1"><font size="2" color="#000000">
+          <table width="100%">
+           <div id="biaogebiaotic2"><img src="img/biaogebiaoti2.png" width="200px"/></div>
+              <tr>
+                 <td height="100px">2013年5月1日</td>
+                 <td height="100px">IT艺术节</td>
+                 <td height="100px">审核中/通过/淘汰</td>
+                 <td height="100px">详细信息</td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+              </tr>
+              <tr>
+     
+                  <td height="100px"></td>
+                  <td height="100px"></td>
+                  <td height="100px"></td>
+                  <td height="100px"></td>
+               </tr>
+ 
+               <tr>
+                   <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+               </tr>
+               <tr>
+     
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+               </tr>
+   
+               <tr>
+                    <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+               </tr>
+               <tr>
+     
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+               </tr>   
+               <tr>
+                    <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+               </tr>
+               <tr>
+     
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+               </tr>
+     
+          </table>
+             </font>
+       </div>
+       <div class="pagination" id="pageca">
+          <ul>
+              <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+              <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+              <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+              <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+              <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+              <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+              <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+          </ul>
+       </div>
+</div>
+
+
+<div id="contentc3">
+      <div id="wangqizhaoxindaohang"><img src="img/wangqicanyuzhaoxindaohang.png" /></div>
+        <div id="biaogec3"><font size="2" color="#000000">
+          <table width="100%">
+            <div id="biaogebiaotic3"><img src="img/biaogebiaoti3.png" width="200px"/></div>
+              <tr>
+                   <td height="100px">2013年5月1日</td>
+                   <td height="100px">IT艺术节</td>
+                   <td height="100px">审核中/通过/淘汰</td>
+                   <td height="100px">详细信息</td>
+              </tr>
+
+              <tr>
+                   <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+              </tr>
+              <tr>
+     
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+              </tr>
+ 
+              <tr>
+                   <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+              </tr>
+              <tr>
+     
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+                   <td height="100px"></td>
+              </tr>
+   
+
+              <tr>
+                    <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+              </tr>
+              <tr>
+     
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+              </tr>
+    
+
+              <tr>
+                    <td colspan="4" style=" background-image:url(img/fengexian.png);height="3px"></td>
+              </tr>
+              <tr>
+     
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+                    <td height="100px"></td>
+              </tr>
+     
+          </table></font>
+        </div>
+           <div class="pagination" id="pagecb">
+               <ul>
+                   <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+                   <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+               </ul>
+           </div>
+</div>
+
+</div>
+
+
+<div class="navbar navbar-fixed-bottom" id="xiabiao">
+   <p align="center"> <font size="2" color="#CCCCCC">Copyright：2013  郑州轻工业现代教育中心版权所有 邮件地址:nic@zzul i.edu.cn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;管理入口</font></p>
+</div>
+</body>
+</html>

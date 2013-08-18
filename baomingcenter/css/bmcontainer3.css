@@ -1,0 +1,275 @@
+#container3{
+   display:none;
+
+	}
+#sidebarc{
+    float:left;
+	width:12%;
+	height:250%;
+	margin-left:15%;
+	top:25%;
+	height:auto !important;
+	min-height:650px;
+	}
+#blackgroundc {
+    float:left;
+	width: 100%;
+	height: 350px;
+	background-image:url(../img/blackground.png);	
+    background-size:cover;
+}
+
+#jiantouc1{
+	width:13%;
+	padding-left:0%;
+	padding-bottom:5%;
+	margin-left:5%;
+	}
+#jiantouc2{
+	width:13%;
+	padding-left:3%;
+	padding-bottom:7%;
+	}
+#jiantouc3{
+	width:13%;
+	padding-left:0%;
+	padding-bottom:7%;
+	margin-left:4%;
+	}
+#baixianc1{
+	width:100%;
+	height:0.2%;
+	}
+#baixianc1 img{
+	width:100%;
+	}
+	#baixianc2{
+	width:100%;
+	height:0.2%;
+	}
+#baixianc2 img{
+	width:100%;
+	}
+	#baixianc3{
+	width:100%;
+	height:0.2%;
+	}
+#baixianc3 img{
+	width:100%;
+	}
+#jibenxinxi{
+	width:100%;
+	margin-left:10%;
+	padding-top:5%;	
+	}
+#jibenxinxi1{	
+	width:62%;
+	}
+#wangqicanyu{
+	width:100%;
+	margin-left:18%;
+	padding-top:5%;
+	}
+#wangqicanyu1{	
+	width:60%;
+	}
+
+#wangqihuodong{
+	width:100%;
+	margin-left:19%;
+	padding-top:6%;
+	}
+#wangqihuodong1{	
+	width:60%;
+	}
+#menubarc {
+	float: left;
+	width: 100%;
+	height: 50%;
+	z-index: 1;
+	margin-top: 20%;
+}
+#menuitermc1{
+	margin-top:10px;
+}
+#menuitermc1 img{
+    width:100%;
+	border:none;
+}
+#menuitermc2{
+	margin-top:12px;
+}
+#menuitermc2 img{
+    width:100%;
+	border:none;
+}
+#menuitermc3{
+	margin-top:12px;
+	}
+#menuitermc3 img{
+   width:100%;
+   border:none;
+}	
+.toumingc{
+   filter:alpha(opacity=50);
+   opacity:0.5;
+}
+#contentc1 {
+	float:left;
+	width: 50%;
+	height: 0px;
+	left:32%;
+	z-index: 1;
+	margin-left:30px;
+    background-color:#63F;
+	top: 25%;
+
+}
+#jibenxinxidaohang {
+
+	float:left;
+	width: 100%;
+	height: 30px;
+	z-index: 2;
+}
+#jibenxinxidaohang img{
+	
+	 width: 100%;
+	 height:30px;
+	}
+#biaoge1{
+   margin-top: 10px;
+}
+	#biaoge1 table {
+		background-color:#dddddd;
+		}
+#biaoge1 table tr td{
+	 width:25%;
+
+	 text-align:center;
+     border-bottom-width:thick;
+	}
+#biaogebiaoti {
+	float:left;
+	width: 100%;
+	height: 30px;
+	z-index: 2;
+}
+#biaogebiaoti img{
+	 width: 100%;
+	 height:30px;
+	}
+#fengexian1 {
+	float:left;
+	width: 100%;
+	height: 2px;
+	z-index: 2;
+}
+#fengexian2 img{
+	 width: 100%;
+	 height:2px;
+	}
+
+
+#contentc2 {
+	float:left;
+	width: 50%;
+	height: 0px;
+	left:32%;
+	z-index: 1;
+	margin-left:30px;
+    background-color:#63F;
+	top: 25%;
+	display: none;
+
+}
+#wangqicanyudaohang {
+
+	float:left;
+	width: 100%;
+	height: 30px;
+	z-index: 2;
+}
+#wangqicanyudaohang img{
+	
+	 width: 100%;
+	 height:30px;
+	}
+#biaogec3{
+   margin-top: 10px;
+}
+	#biaogec3 table {
+		background-color:#dddddd;
+		}
+#biaogec3 table tr td{
+	 width:25%;
+
+	 text-align:center;
+     border-bottom-width:thick;
+	}
+#biaogebiaotic2 {
+	float:left;
+	width: 100%;
+	height: 30px;
+	z-index: 2;
+}
+#biaogebiaotic2 img{
+	 width: 100%;
+	 height:30px;
+	}
+
+#contentc3 {
+	float:left;
+	width: 50%;
+	height: 0px;
+	left:32%;
+	z-index: 1;
+	margin-left:30px;
+    background-color:#63F;
+	top: 25%;
+    display: none; 
+}
+#wangqizhaoxindaohang {
+
+	float:left;
+	width: 100%;
+	height: 30px;
+	z-index: 2;
+}
+#wangqizhaoxindaohang img{
+	
+	 width: 100%;
+	 height:30px;
+	}
+#biaogec3{
+   margin-top: 10px;
+}
+	#biaoge1 table {
+		background-color:#dddddd;
+		}
+#biaogec3 table tr td{
+	 width:25%;
+
+	 text-align:center;
+     border-bottom-width:thick;
+	}
+#biaogebiaotic3 {
+	float:left;
+	width: 100%;
+	height: 30px;
+	z-index: 2;
+}
+#biaogebiaotic3 img{
+	 width: 100%;
+	 height:30px;
+	}
+#fengexian1 {
+	float:left;
+	width: 100%;
+	height: 2px;
+	z-index: 2;
+}
+#fengexian2 img{
+	 width: 100%;
+	 height:2px;
+	}

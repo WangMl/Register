@@ -1,0 +1,1280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>管理中心</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"></script>
+<script src="js/guanli.js"></script>
+<link href="css/guanli.css" type="text/css" rel="stylesheet"/>
+
+<style type="text/css">
+
+
+</style>
+</head>
+
+<body>
+
+<div id="logo"><img src="img/logo.png" /></div>
+<div id="header">  
+</div>
+<div id="navigation">
+<div id="register1"><img src="img/shenbaofangguanli.png" /></div>
+</div>
+
+
+<div id="sidebar">
+  <div id="blackground">
+    <div id="huodongshenhe" onClick="branch1()"><img src="img/shetuanhuodongshenhe.png" id="huodongshenhe1"  onClick="showJian1('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantou.png"  id="jiantou1" />
+    </div> 
+    <div id="baixian1"><img src="img/baixian.png" />
+    </div>
+    <div id="zhaoxinshenhe" onClick="branch2()"><img src="img/shetuanzhaoxinshenhe.png" id="zhaoxinshenhe1"  onClick="showJian2('img/jiantou.png','img/jiantoukong.png')" /><img src="img/jiantoukong.png" id="jiantou2" />
+    </div> 
+    <div id="baixian2"><img src="img/baixian.png" />
+    </div>
+    <div id="shenbaohuodong" onClick="branch3()"><img src="img/yishenbaohuodong.png" id="shenbaohuodong1" onClick="showJian3('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantoukong.png" id="jiantou3" />
+    </div> 
+    <div id="baixian3"><img src="img/baixian.png" />
+    </div>
+    <div id="shenbaozhaoxin" onClick="branch4()"><img src="img/yishenbaozhaoxin.png" id="shenbaozhaoxin1"  onClick="showJian4('img/jiantou.png','img/jiantoukong.png')"  /><img src="img/jiantoukong.png"  id="jiantou4" /></div> 
+    <div id="baixian1"><img src="img/baixian.png" />
+    </div>
+    <div id="yiguoqihuodong" onClick="branch5()"><img src="img/yiguoqihuodong.png" id="yiguoqihuodong1"  onClick="showJian5('img/jiantou.png','img/jiantoukong.png')" /><img src="img/jiantoukong.png" id="jiantou5" /></div>
+    <div id="baixian2"><img src="img/baixian.png" />
+    </div>
+  </div>
+  <div id="menubar" width="191px" >
+     <div id="menuiterm1"><a href=""><img src="img/connectus.png"  id="iterm1"onmouseover="change1()" onmouseout="start1()"/></a></div>
+     <div id="menuiterm2"><a href=""><img src="img/technology.png"  id="iterm2"onmouseover="change2()" onmouseout="start2()"/></a></div>
+     <div id="menuiterm3"><a href=""><img src="img/suggestion.png"   id="iterm3"onmouseover="change3()" onmouseout="start3()"/></a></div>
+   </div>
+</div>
+
+
+
+<!--content1部分-->		 
+<div id="content1" >
+    <div id="daohang1"><img src="img/shetuanshenhedaohang.png" />
+    </div>
+   
+      <div id="xinxia1">
+ 
+         <div id="showa1" onclick="show('a','1')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguoa1"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaia1"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">活动名称：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaia1">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hidea1" onclick="hide('a','1')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">活动介绍：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbia1"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+
+    <div id="xinxia2">
+ 
+         <div id="showa2" onclick="show('a','2')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguoa2"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaia2"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">活动名称：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaia2">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hidea2" onclick="hide('a','2')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">活动介绍：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbia2"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+  
+    <div id="xinxia3">
+ 
+         <div id="showa3" onclick="show('a','3')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguoa3"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaia3"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">活动名称：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaia3">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hidea3" onclick="hide('a','3')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">活动介绍：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbia3"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+
+    <div id="xinxia4">
+ 
+         <div id="showa4" onclick="show('a','4')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguoa4"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaia4"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">活动名称：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaia4">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hidea4" onclick="hide('a','4')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">活动介绍：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbia4"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+   
+       <div id="xinxia5">
+ 
+         <div id="showa5" onclick="show('a','5')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="25px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguoa5"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaia5"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">活动名称：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaia5">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hidea5" onclick="hide('a','5')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">活动介绍：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbia5"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+     <div class="pagination" id="page1">
+               <ul>
+                   <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+                   <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+               </ul>
+           </div>
+ </div>
+<!--content2部分-->	
+ <div id="content2" >
+    <div id="daohang2"><img src="img/shetuanzhaoxinshenhedaohang.png" />
+    </div>
+   
+      <div id="xinxib1">
+ 
+         <div id="showb1" onclick="show('b','1')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguob1"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaib1"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right"></td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaib1">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hideb1" onclick="hide('b','1')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">社团信息：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbib1"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+
+    <div id="xinxib2">
+ 
+         <div id="showb2" onclick="show('b','2')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguob2"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaib2"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right"></td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaib2">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hideb2" onclick="hide('b','2')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">社团信息：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbib2"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+  
+    <div id="xinxib3">
+ 
+         <div id="showb3" onclick="show('b','3')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguob3"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaib3"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right"></td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaib3">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hideb3" onclick="hide('b','3')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">社团信息：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbib3"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+
+    <div id="xinxib4">
+ 
+         <div id="showb4" onclick="show('b','4')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="30px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguob4"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaib4"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right"></td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaib4">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hideb4" onclick="hide('b','4')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">社团信息：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbib4"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+   
+       <div id="xinxib5">
+ 
+         <div id="showb5" onclick="show('b','5')"> 
+         	<br />
+         	<font size="2">
+            <table width="98%" height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td width="15%" height="25px" align="right">申报人：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px" rowspan="2"><div  id="tongguob5"><img src="img/tongguo.png" /></div></td>
+                <td width="13%" height="30px" rowspan="2"><div  id="taotaib5"><img src="img/taotai.png" /></div></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right">联系电话：</td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+              </tr>
+              <tr>
+                <td width="15%" height="30px" align="right"></td>
+                <td width="2%"></td>
+                <td width="58%" height="30px"></td>
+                <td width="12%" height="30px"></td>
+                <td width="13%" height="30px"><div  id="zhankaib5">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+          <div id="hideb5" onclick="hide('b','5')">
+            <table width="100%"height="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+             
+                  <tr>
+                     <td width="15%" align="right">社团信息：</td>
+                     <td width="2%"></td>
+                      <td width="58%"></td>
+                     <td width="25%" rowspan="2"></td>
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">人员需求：</td>
+                     <td width="2%"></td>
+                     <td width="68%"><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p></td>                     
+                  </tr>
+                  <tr>
+                     <td width="15%" align="right">起止时间：</td>
+                     <td width="2%"></td>
+                     <td width="58%"></td>
+                     <td width="25%"> <div id="guanbib5"><p>关闭详情</p></div></td>
+                  </tr>
+               </div>
+            </table>
+         </div>
+
+
+   </div>
+          <div class="pagination" id="page2">
+               <ul>
+                   <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+                   <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+               </ul>
+           </div>
+ </div>
+ <!--content3部分-->	
+ <div id="content3" >
+       <div id="daohangc"><img src="img/yishenbaohuodongdaohang.png" /></div>  
+       <div id="xinxic1"> 
+         <div id="showc1" onclick="show('c','1')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchuc1"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2" width="70%">
+                     <div id="textc1">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaic1">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidec1" onclick="hide('c','1')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyc1"  onclick="hide('c','1')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbic1"  onclick="hide('c','1')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       </div>
+       
+       <div id="xinxic2"> 
+         <div id="showc2" onclick="show('c','2')"> 
+         	<br />
+
+             <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchuc2"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textc2">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaic2">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+                <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidec2" onclick="hide('c','2')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyc2"onclick="hide('c','2')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbic2" onclick="hide('c','2')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>        
+       </div>
+        <div id="xinxic3"> 
+         <div id="showc3" onclick="show('c','3')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchuc3"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textc3">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaic3">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidec3" onclick="hide('c','3')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyc3" onclick="hide('c','3')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbic3" onclick="hide('c','3')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       
+       </div>
+        <div id="xinxic4"> 
+         <div id="showc4" onclick="show('c','4')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchuc4"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textc4">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaic4">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidec4" onclick="hide('c','4')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyc4" onclick="hide('c','4')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbic4" onclick="hide('c','4')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       </div>
+        <div id="xinxic5"> 
+         <div id="showc5" onclick="show('c','5')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchuc5"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textc5">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaic5">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+                <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidec5" onclick="hide('c','5')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyc5" onclick="hide('c','5')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbic5" onclick="hide('c','5')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+    
+       </div>
+       
+           <div class="pagination" id="page3">
+               <ul>
+                   <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+                   <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+               </ul>
+           </div>
+</div>
+ 
+ <!--content4部分-->	
+ <div id="content4" >
+       <div id="daohangd"><img src="img/yishenbaozhaoxindaohang.png" /></div>  
+       <div id="xinxid1"> 
+         <div id="showd1" onclick="show('d','1')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchud1"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2" width="70%">
+                     <div id="textd1">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaid1">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hided1" onclick="hide('d','1')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyd1" onclick="hide('d','1')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbid1" onclick="hide('d','1')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       </div>
+       
+       <div id="xinxid2"> 
+         <div id="showd2" onclick="show('d','2')"> 
+         	<br />
+             <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchud2"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textd2">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaid2">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+                <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hided2" onclick="hide('d','2')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyd2" onclick="hide('d','2')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbid2"  onclick="hide('d','2')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>        
+       </div>
+        <div id="xinxid3"> 
+         <div id="showd3"  onclick="show('d','3')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchud3"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textd3">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaid3">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hided3"  onclick="hide('d','3')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyd3" onclick="hide('d','3')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbid3" onclick="hide('d','3')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       
+       </div>
+        <div id="xinxid4"> 
+         <div id="showd4" onclick="show('d','4')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchud4"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textd4">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaid4">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hided4" onclick="hide('d','4')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyd4" onclick="hide('d','4')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbid4" onclick="hide('d','4')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       </div>
+        <div id="xinxid5"> 
+         <div id="showd5" onclick="show('d','5')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchud5"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="textd5">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaid5">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+                <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hided5" onclick="hide('d','5')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptyd5" onclick="hide('d','5')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbid5" onclick="hide('d','5')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+    
+       </div>      
+             <div class="pagination" id="page4">
+               <ul>
+                   <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+                   <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+               </ul>
+           </div>
+ </div>
+ 
+ <!--content5部分-->	
+ <div id="content5" >
+       <div id="daohange"><img src="img/yiguoqizhaoxindaohang.png" /></div>  
+       <div id="xinxie1"> 
+         <div id="showe1" onclick="show('e','1')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchue1"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2" width="70%">
+                     <div id="texte1">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaie1">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidee1" onclick="hide('e','1')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptye1" onclick="hide('e','1')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbie1" onclick="hide('e','1')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       </div>
+       
+       <div id="xinxie2"> 
+         <div id="showe2" onclick="show('e','2')"> 
+         	<br />
+             <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchue2"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="texte2">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaie2">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+                <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidee2" onclick="hide('e','2')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptye2" onclick="hide('e','2')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbie2" onclick="hide('e','2')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>        
+       </div>
+        <div id="xinxie3"> 
+         <div id="showe3" onclick="show('e','3')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchue3"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="texte3">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaie3">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidee3" onclick="hide('e','3')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptye3" onclick="hide('e','3')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbie3" onclick="hide('e','3')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       
+       </div>
+        <div id="xinxie4"> 
+         <div id="showe4" onclick="show('e','4')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchue4"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="texte4">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaie4">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+               <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidee4" onclick="hide('e','4')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptye4"  onclick="hide('e','4')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbie4"  onclick="hide('e','4')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+       </div>
+        <div id="xinxie5"> 
+         <div id="showe5"  onclick="show('e','5')"> 
+         	<br />
+            <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+              <tr>
+                <td><h4><font color="#66CCFF">&nbsp;&nbsp;&nbsp;&nbsp;某某艺术团</font></h4></td>
+                <td></td>
+                <td><div id="shanchue5"><img src="img/shanchu.png"</div></td>
+              </tr>
+              <tr>
+                 <td rowspan="2" colspan="2">
+                     <div id="texte5">
+                      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;青春的花开花谢，疲惫却不后悔；四季里雨雪纷飞，拼搏永不言退。我们将风雨同言退。的心灵憧憬梦想的风景</p>
+                     </div>
+                 </td>
+                 <td> <div  id="zhankaie5">展开详情</div></td>
+              </tr>
+            </table>
+         </div>
+                <table  width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;word-break:break-all">
+               <tr>
+                  <td width="70%">
+                     <div id="hidee5"  onclick="hide('e','5')">
+                     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中，勃的生机焕发青春的活力。我们应该心系祖国，胸怀天下。在今后的学习生活中活力。我们应该心系祖国，胸怀天下。在今后的学习生。我们应该心系祖国，胸怀天下。在今后的学习生活中
+                     多种多样的人生哲学，将感受学者大家的气度风范，将鸟瞰中国与世界千百年来的</p>
+                     </div> 
+                   </td>
+ 
+                  <td>
+                     <div id="emptye5" onclick="hide('e','5')"></div>
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td><div id="guanbie5" onclick="hide('e','5')"><p>&nbsp;&nbsp;关闭详情</p></div></td>
+               </tr>
+            </table>
+    
+       </div>
+       
+            <div class="pagination" id="page5">
+               <ul>
+                   <li><a href="#"><font color="#CCCCCC">Prev</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">1</font></a></li>
+  
+                   <li><a href="#"><font color="#CCCCCC">2</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">3</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">4</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">5</font></a></li>
+                   <li><a href="#"><font color="#CCCCCC">Next</font></a></li>
+               </ul>
+           </div>
+      </div>
+ </div>
+<div class="navbar navbar-fixed-bottom" id="xiabiao">
+   <p align="center"> <font size="2" color="#CCCCCC">Copyright：2013  郑州轻工业现代教育中心版权所有 邮件地址:nic@zzul i.edu.cn&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;管理入口</font></p>
+</div>
+</body>
+</html>
